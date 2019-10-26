@@ -1,0 +1,26 @@
+#title1 {
+  color: darkslategray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#main_box {
+    color: darkslategray;
+  width:100%;
+  padding: 30px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#gen_pass{
+    border-bottom-style:solid;
+
+}
+#output_box{
+    border-style:dashed;
+    margin-top:10px;
+
+
+}
+*{
+    /* border-style:solid; */
+}
