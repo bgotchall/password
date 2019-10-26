@@ -29,7 +29,7 @@
 
     <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
+    
 
     <title>Password Generator</title>
   </head>
@@ -51,7 +51,7 @@
               <div class="form-group">
                 <form id="password_length">
                   <label for="formControlRange"
-                    >Password Length (between 8-128 characters)</label
+                    >Password Length (between 8-128 characters).    Selected: <span id="span"></span></label
                   >
                   <input
                     type="range"
@@ -108,7 +108,7 @@
           </div>
           <div class="row">
             <div class="col-12" id="output_box">
-              <p>your secure password</p>
+              <p id="password_here"> your secure password</p>
             </div>
           </div>
           <div class="row" id="row_with_buttons">
@@ -117,11 +117,13 @@
             </div>
             <div class="col-6">
               <button id="copy_to_clipboard">Copy to Clipboard</button>
+              <input  type="text" value="Hello World" class="hide_me" id="hidden_box">
             </div>
           </div>
         </div>
         <div class="col-1"></div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -18,9 +18,35 @@
 #output_box{
     border-style:dashed;
     margin-top:10px;
+    margin-bottom:10px;
 
 
 }
-*{
-    /* border-style:solid; */
+
+#generate_button{
+  align-self: center;
+  
+  
+  border-radius:12px;
+  height: 50px;
+  color:white;
+  background-color:rgb(182, 17, 17);
+
+}
+#copy_to_clipboard{
+  border-radius:12px;
+  height: 50px;
+  color:white;
+  background-color:grey;
+
+}
+
+.hide_me{
+  display:none;
+
+}
+
+.show_me{
+  display:inline;
+
 }
