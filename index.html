@@ -48,6 +48,62 @@
           <div class="row">
             <div class="col-12" id="gen_pass">
               <h1>Generate a Password</h1>
+              <div class="form-group">
+                <form id="password_length">
+                  <label for="formControlRange"
+                    >Password Length (between 8-128 characters)</label
+                  >
+                  <input
+                    type="range"
+                    class="form-control-range"
+                    id="formControlRange"
+                  />
+                </form>
+
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="special_char_Check"
+                  />
+                  <label class="form-check-label" for="special_char_Check">
+                    Special Characters
+                  </label>
+                  <br>
+
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="num_char_Check"
+                  />
+                  <label class="form-check-label" for="num_char_Check">
+                    Numeric
+                  </label>
+                  <br>
+
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="lower_Check"
+                  />
+                  <label class="form-check-label" for="lower_Check">
+                    Lowercase
+                  </label><br>
+
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="upper_Check"
+                  />
+                  <label class="form-check-label" for="upper_Check">
+                    Uppercase
+                  </label><br>
+                </div>
+              </div>
             </div>
           </div>
           <div class="row">
@@ -57,10 +113,10 @@
           </div>
           <div class="row" id="row_with_buttons">
             <div class="col-6">
-                <button id="generate_button">Generate Password</button>
+              <button id="generate_button">Generate Password</button>
             </div>
             <div class="col-6">
-                <button id="copy to clipboard">Copy to Clipboard</button>
+              <button id="copy_to_clipboard">Copy to Clipboard</button>
             </div>
           </div>
         </div>
